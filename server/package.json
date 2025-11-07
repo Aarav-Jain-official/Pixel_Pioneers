@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ai study buddy",
+  "keywords": [
+    "quizze",
+    "feedback",
+    "summary"
+  ],
+  "homepage": "https://github.com/Pixeder/Pixel_Pioneers#readme",
+  "bugs": {
+    "url": "https://github.com/Pixeder/Pixel_Pioneers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixeder/Pixel_Pioneers.git"
+  },
+  "license": "ISC",
+  "author": "Vinay Kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
