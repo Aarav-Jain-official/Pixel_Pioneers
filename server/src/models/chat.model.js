@@ -10,7 +10,7 @@ const chatSchema = new Schema(
     category: {
       type: String,
       required: true,
-      enum: ["general", "career", "mental_health", "technical"],
+      enum: ["summarizer" , "analyzer" , "quiz" , "general"],
     },
   },
   { timestamps: true }

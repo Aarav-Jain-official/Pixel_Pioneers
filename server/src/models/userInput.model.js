@@ -15,7 +15,7 @@ const userInputSchema = new Schema(
     inputType: {
       type: String,
       required: true,
-      enum: ["feedback", "query", "suggestion"],
+      enum: ["link" , "query"],
     },
     content: {
       type: String,

@@ -12,9 +12,33 @@ const reportSchema = new Schema(
       ref: "Quiz",
       required: true,
     },
-    summary: {
-      type: String,
-      required: true,
+    weakTopics: {
+      type: [String],
+      default: [],
+    },
+    strongTopics: {
+      type: [String],
+      default: [],
+    },
+    recommendedResources: {
+      articles: [
+        {
+          title: { type: String, trim: true },
+          link: { type: String, trim: true },
+        },
+      ],
+      videos: [
+        {
+          title: { type: String, trim: true },
+          link: { type: String, trim: true },
+        },
+      ],
+      courses: [
+        {
+          title: { type: String, trim: true },
+          link: { type: String, trim: true },
+        },
+      ],
     },
   },
   { timestamps: true }

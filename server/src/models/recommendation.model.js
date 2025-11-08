@@ -6,6 +6,11 @@ const recommendationSchema = new Schema({
     ref: "User",
     required: true,
   },
+  userInputs: {
+    type: Schema.Types.ObjectId,
+    ref: "UserInput",
+    required: true,
+  },
   category: {
     type: String,
     required: true,
